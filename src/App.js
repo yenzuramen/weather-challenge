@@ -1,10 +1,13 @@
 import './App.css';
 import { MainRouter } from './routes/MainRoutes';
+import { WeatherProvider } from './contexts/WeatherProvider';
 
 function App() {
   return (
     <>
-      <MainRouter/>
+      <WeatherProvider>
+        <MainRouter />
+      </WeatherProvider>
     </>
   );
 }

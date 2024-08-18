@@ -1,0 +1,70 @@
+.search-bar-container {
+    margin: 1rem;
+    width: 50%;
+    /* height: 30%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    gap: 1rem;
+    border-radius: 10px;
+    /* -webkit-box-shadow: 1px 1px 15px -5px rgba(63, 21, 191, 1);
+    -moz-box-shadow: 1px 1px 15px -5px rgba(63, 21, 191, 1);
+    box-shadow: 1px 1px 15px -5px rgba(63, 21, 191, 1); */
+    position: relative;
+}
+
+.city-input {
+    border: 1px solid #6f40ee;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 30%;
+}
+
+.search-city-btn {
+    border: none;
+    border: 1px solid #6f40ee;
+    background-color: #e8dfff;
+    color: #6f40ee;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.search-city-btn:hover {
+    transform: scale(1.1);
+    /* border: 1px solid #6f40ee; */
+    background-color: #6f40ee;
+    color: #ffffff;
+}
+
+.city-list{
+    position: absolute;
+    top: 110%;
+    /* background-color: #6f40ee; */
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+}
+
+.city-list-item{
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #bfa8ff;
+
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.city-list-item:hover{
+    border: 1px solid #6f40ee;
+    transform: scale(1.1);
+    -webkit-box-shadow: 1px 1px 15px -5px rgb(100, 56, 223,1);
+    -moz-box-shadow: 1px 1px 15px -5px rgb(100, 56, 223,1);
+    box-shadow: 1px 1px 15px -5px rgb(100, 56, 223,1);
+}
